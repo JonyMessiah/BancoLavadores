@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="274.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.LosLavadores.ClientList">
+    <children>
+        <Label id="txt_Deposit" layoutX="145.0" layoutY="14.0" prefHeight="21.0" prefWidth="136.0" text="Deposito de cuenta.">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button id="btn_Menu" layoutX="153.0" layoutY="235.0" mnemonicParsing="false" text="Volver al menú." />
+      <Label id="txt_AccountId" layoutX="52.0" layoutY="55.0" text="Numero de la cuenta a la que quiere depositar" />
+      <TextField id="field_AccountId" layoutX="52.0" layoutY="89.0" prefHeight="25.0" prefWidth="321.0" />
+      <Label id="txt_Quantity" layoutX="52.0" layoutY="137.0" text="Ingrese la cantidad que desea depositar" />
+      <TextField id="field_Quantity" layoutX="53.0" layoutY="166.0" prefHeight="25.0" prefWidth="321.0" />
+      <Label id="txt_Error" layoutX="116.0" layoutY="207.0" prefHeight="17.0" prefWidth="193.0" text="Debe de rellenar todos los espacios" textFill="#fc0000" />
+    </children>
+</AnchorPane>
