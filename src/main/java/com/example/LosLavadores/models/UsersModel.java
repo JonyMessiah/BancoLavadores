@@ -2,7 +2,7 @@ package com.example.LosLavadores.models;
 import java.util.*;
 
 
-public class LavadoresModel {
+public class UsersModel {
 
     static ArrayList<String> name = new ArrayList<String>();
 
@@ -11,7 +11,7 @@ public class LavadoresModel {
     }
 
     public static void setName(ArrayList<String> name) {
-        LavadoresModel.name = name;
+        UsersModel.name = name;
     }
 
     public static ArrayList<String> getAge() {
@@ -19,7 +19,7 @@ public class LavadoresModel {
     }
 
     public static void setAge(ArrayList<String> age) {
-        LavadoresModel.age = age;
+        UsersModel.age = age;
     }
 
     public static ArrayList<String> getId() {
@@ -27,7 +27,7 @@ public class LavadoresModel {
     }
 
     public static void setId(ArrayList<String> id) {
-        LavadoresModel.id = id;
+        UsersModel.id = id;
     }
 
     public static ArrayList<String> getBirthDate() {
@@ -35,7 +35,7 @@ public class LavadoresModel {
     }
 
     public static void setBirthDate(ArrayList<String> birthDate) {
-        LavadoresModel.birthDate = birthDate;
+        UsersModel.birthDate = birthDate;
     }
 
     public static ArrayList<String> getAddress() {
@@ -43,7 +43,7 @@ public class LavadoresModel {
     }
 
     public static void setAddress(ArrayList<String> address) {
-        LavadoresModel.address = address;
+        UsersModel.address = address;
     }
 
     public static ArrayList<Integer> getSalary() {
@@ -51,7 +51,7 @@ public class LavadoresModel {
     }
 
     public static void setSalary(ArrayList<Integer> salary) {
-        LavadoresModel.salary = salary;
+        UsersModel.salary = salary;
     }
 
     public static ArrayList<Integer> getAccountId() {
@@ -59,7 +59,7 @@ public class LavadoresModel {
     }
 
     public static void setAccountId(ArrayList<Integer> accountId) {
-        LavadoresModel.accountId = accountId;
+        UsersModel.accountId = accountId;
     }
 
     public static int getNumClients() {
@@ -67,7 +67,7 @@ public class LavadoresModel {
     }
 
     public static void setNumClients(int numClients) {
-        LavadoresModel.numClients = numClients;
+        UsersModel.numClients = numClients;
     }
 
     static ArrayList<String> age = new ArrayList<String>();

@@ -1,6 +1,7 @@
 package com.example.LosLavadores.controllers;
 
 
+import com.example.LosLavadores.LosLavadoresApplication;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -28,18 +29,18 @@ public class HomeController {
         String query = "SELECT COUNT(*) AS recordCount FROM projects WHERE  user_id = ?";
 
         PreparedStatement pstmt  = connection.prepareStatement(query);
-        pstmt.setInt(1, RaiotProjectsApplication.user_id);
+        pstmt.setInt(1, LosLavadoresApplication.user_id);
         ResultSet rs    = pstmt.executeQuery();
         rs.next();
         Integer total_projects = rs.getInt("recordCount");
 
     }
     @FXML
-    protected void onAddProjectClick() throws Exception {
+    protected void onCreateAccountClick() throws Exception {
         SQLiteDao sqlite = new SQLiteDao();
         Connection connection = sqlite.getConnection();
 
-        Parent registerScene = FXMLLoader.load(LosLavadadores.class.getResource("project.fxml"));
+        Parent registerScene = FXMLLoader.load(LosLavadoresApplication.class.getResource("createAccount.fxml"));
         Stage window = (Stage) btn_AddProject.getScene().getWindow();
         window.setScene(new Scene(registerScene));
     }
