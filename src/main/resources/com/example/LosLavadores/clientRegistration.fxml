@@ -16,17 +16,16 @@
             <Font size="26.0" />
          </font>
       </Label>
-      <Label id="txt_Name" layoutX="125.0" layoutY="61.0" prefHeight="21.0" prefWidth="52.0" text="Nombre." />
-      <Label id="txt_Age" layoutX="128.0" layoutY="117.0" text="Edad" />
-      <Label id="txt_BirthDate" layoutX="128.0" layoutY="171.0" text="Fecha de Nacimiento" />
-      <Label id="txt_Id" layoutX="124.0" layoutY="278.0" text="Identificacion" />
-      <Label id="txt_Address" layoutX="126.0" layoutY="225.0" text="Direccion" />
-      <Label id="txt_Age" layoutX="124.0" layoutY="327.0" text="Edad" />
-      <TextField id="field_Name" layoutX="124.0" layoutY="82.0" prefHeight="25.0" prefWidth="304.0" />
-      <TextField id="field_Age" layoutX="124.0" layoutY="134.0" prefHeight="25.0" prefWidth="304.0" />
-      <TextField id="field_BirthDate" layoutX="124.0" layoutY="188.0" prefHeight="25.0" prefWidth="304.0" />
-      <TextField id="field_Address" layoutX="124.0" layoutY="242.0" prefHeight="25.0" prefWidth="304.0" />
-      <TextField id="field_Id" layoutX="124.0" layoutY="295.0" prefHeight="25.0" prefWidth="304.0" />
-      <TextField id="field_Age" layoutX="124.0" layoutY="344.0" prefHeight="25.0" prefWidth="304.0" />
+      <Label fx:id="txt_Name" layoutX="125.0" layoutY="61.0" prefHeight="21.0" prefWidth="52.0" text="Nombre." />
+      <Label fx:id="txt_Age" layoutX="128.0" layoutY="117.0" text="Edad" />
+      <Label fx:id="txt_BirthDate" layoutX="128.0" layoutY="171.0" text="Fecha de Nacimiento" />
+      <Label fx:id="txt_Id" layoutX="124.0" layoutY="278.0" text="Identificacion" />
+      <Label fx:id="txt_Address" layoutX="126.0" layoutY="225.0" text="Direccion" />
+      <TextField fx:id="field_Name" layoutX="124.0" layoutY="82.0" prefHeight="25.0" prefWidth="304.0" />
+      <TextField fx:id="field_Age" layoutX="124.0" layoutY="134.0" prefHeight="25.0" prefWidth="304.0" />
+      <TextField fx:id="field_BirthDate" layoutX="124.0" layoutY="188.0" prefHeight="25.0" prefWidth="304.0" />
+      <TextField fx:id="field_Address" layoutX="124.0" layoutY="242.0" prefHeight="25.0" prefWidth="304.0" />
+      <TextField fx:id="field_Id" layoutX="124.0" layoutY="295.0" prefHeight="25.0" prefWidth="304.0" />
+      <TextField fx:id="field_Age" layoutX="124.0" layoutY="344.0" prefHeight="25.0" prefWidth="304.0" />
    </children>
 </AnchorPane>

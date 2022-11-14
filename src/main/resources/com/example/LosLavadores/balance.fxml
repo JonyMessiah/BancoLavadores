@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.LosLavadores.controllers.BalanceController">
+    <children>
+        <Label fx:id="title_Salary" layoutX="217.0" layoutY="14.0" prefHeight="21.0" prefWidth="48.0" text="Salario">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="btn_Menu" layoutX="187.0" layoutY="341.0" mnemonicParsing="false" text="Volver al menú." />
+      <Label fx:id="txt_AccountId" layoutX="60.0" layoutY="51.0" text="Numero de cuenta.">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="53.0" layoutY="76.0" prefHeight="25.0" prefWidth="281.0" />
+      <Label fx:id="txt_AccountSalary" layoutX="58.0" layoutY="158.0" prefHeight="106.0" prefWidth="365.0" text="Aún no ha ingresado ninguna cuenta." />
+      <Label fx:id="txt_Salary" layoutX="60.0" layoutY="131.0" text="Salario">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="txt_Error" layoutX="142.0" layoutY="310.0" text="Debe de rellenar todos los espacios" textFill="#e80404" />
+    </children>
+</AnchorPane>

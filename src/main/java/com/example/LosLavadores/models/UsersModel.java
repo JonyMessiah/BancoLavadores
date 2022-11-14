@@ -4,61 +4,61 @@ import java.util.*;
 
 public class UsersModel {
 
-    static ArrayList<String> name = new ArrayList<String>();
+    static String name;
 
-    public static ArrayList<String> getName() {
+    public static String getName() {
         return name;
     }
 
-    public static void setName(ArrayList<String> name) {
+    public static void setName(String name) {
         UsersModel.name = name;
     }
 
-    public static ArrayList<String> getAge() {
+    public static String getAge() {
         return age;
     }
 
-    public static void setAge(ArrayList<String> age) {
+    public static void setAge(String age) {
         UsersModel.age = age;
     }
 
-    public static ArrayList<String> getId() {
+    public static String getId() {
         return id;
     }
 
-    public static void setId(ArrayList<String> id) {
+    public static void setId(String id) {
         UsersModel.id = id;
     }
 
-    public static ArrayList<String> getBirthDate() {
+    public static String getBirthDate() {
         return birthDate;
     }
 
-    public static void setBirthDate(ArrayList<String> birthDate) {
+    public static void setBirthDate(String birthDate) {
         UsersModel.birthDate = birthDate;
     }
 
-    public static ArrayList<String> getAddress() {
+    public static String getAddress() {
         return address;
     }
 
-    public static void setAddress(ArrayList<String> address) {
+    public static void setAddress(String address) {
         UsersModel.address = address;
     }
 
-    public static ArrayList<Integer> getSalary() {
-        return salary;
+    public static int getBalance() {
+        return balance;
     }
 
-    public static void setSalary(ArrayList<Integer> salary) {
-        UsersModel.salary = salary;
+    public static void setBalance(int balance) {
+        UsersModel.balance = balance;
     }
 
-    public static ArrayList<Integer> getAccountId() {
+    public static int getAccountId() {
         return accountId;
     }
 
-    public static void setAccountId(ArrayList<Integer> accountId) {
+    public static void setAccountId(int accountId) {
         UsersModel.accountId = accountId;
     }
 
@@ -70,12 +70,12 @@ public class UsersModel {
         UsersModel.numClients = numClients;
     }
 
-    static ArrayList<String> age = new ArrayList<String>();
-    static ArrayList<String> id = new ArrayList<String>();
-    static ArrayList<String> birthDate = new ArrayList<String>();
-    static ArrayList<String> address = new ArrayList<String>();
-    static ArrayList<Integer> salary = new ArrayList<Integer>();
-    static ArrayList<Integer> accountId = new ArrayList<Integer>();
+    static String age;
+    static String id;
+    static String birthDate;
+    static String address;
+    static int balance;
+    static int accountId;
     static int numClients= 0;
 
 }

@@ -11,7 +11,7 @@
                 <Font name="Arial Rounded MT Bold" size="25.0" />
             </font>
         </Label>
-        <Button id="btn_Register" fx:id="btn_AddProject" layoutX="24.0" layoutY="100.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Registrar clientes">
+        <Button id="btn_Register" fx:id="btn_Register" layoutX="24.0" layoutY="100.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Registrar clientes">
             <font>
                 <Font size="20.0" />
             </font></Button>
@@ -19,27 +19,27 @@
             <font>
                 <Font size="13.0" />
             </font></Label>
-      <Button id="btn_Withdraw" fx:id="btn_AddProject1" layoutX="305.0" layoutY="185.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Realizar retiro">
+      <Button id="btn_Withdraw" fx:id="btn_Withdraw" layoutX="305.0" layoutY="185.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Realizar retiro">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button id="btn_Deposit" fx:id="btn_AddProject2" layoutX="305.0" layoutY="100.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Realizar deposito">
+      <Button id="btn_Deposit" fx:id="btn_Deposit" layoutX="305.0" layoutY="100.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Realizar deposito">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button id="btn_Create" fx:id="btn_AddProject3" layoutX="24.0" layoutY="270.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Crear cuenta">
+      <Button id="btn_Create" fx:id="btn_Create" layoutX="24.0" layoutY="270.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Crear cuenta">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button id="btn_List" fx:id="btn_AddProject4" layoutX="24.0" layoutY="185.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Listar clientes">
+      <Button id="btn_List" fx:id="btn_List" layoutX="24.0" layoutY="185.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Listar clientes">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button id="btn_Salary" fx:id="btn_AddProject5" layoutX="305.0" layoutY="270.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Mostrar saldo de cuenta">
+      <Button id="btn_Salary" fx:id="btn_Salary" layoutX="305.0" layoutY="270.0" mnemonicParsing="false" onAction="#onAddProjectClick" prefHeight="60.0" prefWidth="244.0" text="Mostrar saldo de cuenta">
          <font>
             <Font size="20.0" />
          </font>
