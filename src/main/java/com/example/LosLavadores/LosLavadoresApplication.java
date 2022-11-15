@@ -11,6 +11,7 @@ public class LosLavadoresApplication extends Application {
 
 
     public static  Integer user_id;
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(LosLavadoresApplication.class.getResource("home.fxml"));

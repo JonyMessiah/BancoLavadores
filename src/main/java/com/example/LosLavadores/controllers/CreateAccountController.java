@@ -1,4 +1,4 @@
 package com.example.LosLavadores.controllers;
 
-public class ClientRegistration {
+public class CreateAccountController {
 }

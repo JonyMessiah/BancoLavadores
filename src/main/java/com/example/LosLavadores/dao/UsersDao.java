@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class LavadoresDao implements DAOInterface<UsersModel> {
+public class UsersDao implements DAOInterface<UsersModel> {
     private List<UsersModel> users = new ArrayList<>();
 
     public Optional<UsersModel> getById(String id) {

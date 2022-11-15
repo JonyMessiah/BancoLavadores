@@ -1,6 +1,7 @@
 package com.example.LosLavadores.controllers;
 
 
+import com.example.LosLavadores.dao.SQLiteDao;
 import com.example.LosLavadores.LosLavadoresApplication;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

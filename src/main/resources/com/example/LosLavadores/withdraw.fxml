@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="274.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.LosLavadores.ClientList">
+<AnchorPane prefHeight="274.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.LosLavadores.controllers.withdrawController">
     <children>
         <Label fx:id="txt_Withdraw" layoutX="145.0" layoutY="14.0" prefHeight="21.0" prefWidth="136.0" text="Retiro de cuenta">
             <font>
