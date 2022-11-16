@@ -11,7 +11,7 @@ public class SQLiteDao {
         if (connection == null) {
             try {
                 File dbfile=new File(".");
-                String url= "jdbc:sqlite:" + dbfile.getAbsolutePath() + "/src/main/database/riotprojects.sqlite";
+                String url= "jdbc:sqlite:" + dbfile.getAbsolutePath() + "/src/main/database/database.sqlite";
                 connection = DriverManager.getConnection(url);
                 return connection;
             } catch ( Exception e ) {

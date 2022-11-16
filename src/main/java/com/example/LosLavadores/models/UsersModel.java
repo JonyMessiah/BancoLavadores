@@ -23,11 +23,11 @@ public class UsersModel {
     }
 
     public static String getId() {
-        return id;
+        return user_id;
     }
 
     public static void setId(String id) {
-        UsersModel.id = id;
+        UsersModel.user_id = id;
     }
 
     public static String getBirthDate() {
@@ -71,7 +71,8 @@ public class UsersModel {
     }
 
     static String age;
-    static String id;
+
+    static String user_id;
     static String birthDate;
     static String address;
     static int balance;

@@ -18,31 +18,81 @@ import java.sql.ResultSet;
 public class HomeController {
 
     @FXML
-    Button btn_AddProject;
+    Button btn_Register;
+    @FXML
+    Button btn_Salary;
+    @FXML
+    Button btn_List;
+    @FXML
+    Button btn_Deposit;
+    @FXML
+    Button btn_Withdraw;
+    @FXML
+    Button btn_Create;
+
+
 
     @FXML
     Label label_Count;
-    @FXML
-    public void initialize() throws Exception {
-        SQLiteDao sqlite = new SQLiteDao();
-        Connection connection = sqlite.getConnection();
 
-        String query = "SELECT COUNT(*) AS recordCount FROM projects WHERE  user_id = ?";
-
-        PreparedStatement pstmt  = connection.prepareStatement(query);
-        pstmt.setInt(1, LosLavadoresApplication.user_id);
-        ResultSet rs    = pstmt.executeQuery();
-        rs.next();
-        Integer total_projects = rs.getInt("recordCount");
-
-    }
     @FXML
     protected void onCreateAccountClick() throws Exception {
         SQLiteDao sqlite = new SQLiteDao();
         Connection connection = sqlite.getConnection();
 
         Parent registerScene = FXMLLoader.load(LosLavadoresApplication.class.getResource("createAccount.fxml"));
-        Stage window = (Stage) btn_AddProject.getScene().getWindow();
+        Stage window = (Stage) btn_Create.getScene().getWindow();
         window.setScene(new Scene(registerScene));
     }
+
+    @FXML
+    protected void onSalaryClick() throws Exception {
+        SQLiteDao sqlite = new SQLiteDao();
+        Connection connection = sqlite.getConnection();
+
+        Parent registerScene = FXMLLoader.load(LosLavadoresApplication.class.getResource("balance.fxml"));
+        Stage window = (Stage) btn_Salary.getScene().getWindow();
+        window.setScene(new Scene(registerScene));
+    }
+
+    @FXML
+    protected void onListClick() throws Exception {
+        SQLiteDao sqlite = new SQLiteDao();
+        Connection connection = sqlite.getConnection();
+
+        Parent registerScene = FXMLLoader.load(LosLavadoresApplication.class.getResource("clientList.fxml"));
+        Stage window = (Stage) btn_List.getScene().getWindow();
+        window.setScene(new Scene(registerScene));
+    }
+
+    @FXML
+    protected void onDepositClick() throws Exception {
+        SQLiteDao sqlite = new SQLiteDao();
+        Connection connection = sqlite.getConnection();
+
+        Parent registerScene = FXMLLoader.load(LosLavadoresApplication.class.getResource("deposit.fxml"));
+        Stage window = (Stage) btn_Deposit.getScene().getWindow();
+        window.setScene(new Scene(registerScene));
+    }
+
+    @FXML
+    protected void onWithdrawClick() throws Exception {
+        SQLiteDao sqlite = new SQLiteDao();
+        Connection connection = sqlite.getConnection();
+
+        Parent registerScene = FXMLLoader.load(LosLavadoresApplication.class.getResource("withdraw.fxml"));
+        Stage window = (Stage) btn_Withdraw.getScene().getWindow();
+        window.setScene(new Scene(registerScene));
+    }
+
+    @FXML
+    protected void onRegisterClick() throws Exception {
+        SQLiteDao sqlite = new SQLiteDao();
+        Connection connection = sqlite.getConnection();
+
+        Parent registerScene = FXMLLoader.load(LosLavadoresApplication.class.getResource("clientRegistration.fxml"));
+        Stage window = (Stage) btn_Register.getScene().getWindow();
+        window.setScene(new Scene(registerScene));
+    }
+
 }
